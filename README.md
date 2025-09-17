@@ -1,90 +1,121 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# 🚀 PLP Portfolio Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+A responsive, multi-page portfolio website built with HTML5, CSS3, and JavaScript. This project showcases my skills, projects, and contact information as part of the Power Learn Project (PLP) curriculum.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+## 🏠 Pages
 
----
+- **Home**: Introduction and featured projects
+- **About**: Detailed information about me and my skills
+- **Projects**: Showcase of my work with descriptions and technologies used
+- **Contact**: Contact form and information with interactive map
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+## 🛠️ Technologies Used
 
-Before you write any code, take time to plan:
+- HTML5
+- CSS3 (Flexbox, Grid, Animations)
+- JavaScript (ES6+)
+- Font Awesome Icons
+- Google Fonts
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+## 🚀 Deployment
 
-**Goal:** Show intentional structure and user journey across the site.
+### Option 1: Deploy to GitHub Pages
 
----
+1. **Create a GitHub Repository**
+   - Go to [GitHub](https://github.com/new)
+   - Name your repository `username.github.io` (replace 'username' with your GitHub username)
+   - Make sure it's set to Public
+   - Click "Create repository"
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+2. **Push Your Code**
+   ```bash
+   # Initialize git repository (if not already done)
+   git init
+   
+   # Add all files
+   git add .
+   
+   # Commit changes
+   git commit -m "Initial commit"
+   
+   # Add the remote repository
+   git remote add origin https://github.com/username/username.github.io.git
+   
+   # Push to GitHub
+   git push -u origin main
+   ```
 
-Using your plan, begin building:
+3. **Enable GitHub Pages**
+   - Go to your repository on GitHub
+   - Click on "Settings"
+   - In the left sidebar, click on "Pages"
+   - Under "Source", select the `main` branch
+   - Click "Save"
+   - Your site will be live at `https://username.github.io` (it may take a few minutes)
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+### Option 2: Deploy to Vercel
 
-Each page should:
+1. **Create a Vercel Account**
+   - Go to [Vercel](https://vercel.com/signup)
+   - Sign up with your GitHub account
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+2. **Import Your Project**
+   - Click "Add New..." → "Project"
+   - Import your GitHub repository
+   - Vercel will automatically detect it's a static site
+   - Click "Deploy"
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+3. **Configure Domain (Optional)**
+   - After deployment, go to your project in Vercel
+   - Click on "Settings" → "Domains"
+   - Add a custom domain if desired
 
----
+4. **Your site will be live at:** `https://your-project-name.vercel.app`
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+## 🔍 Local Development
 
-Before deployment, refactor your project to follow production-friendly practices:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/portfolio-website.git
+   cd portfolio-website
+   ```
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+2. Open `index.html` in your browser or use a local server:
+   ```bash
+   # Using Python's built-in server
+   python -m http.server 8000
+   ```
+   Then visit `http://localhost:8000` in your browser.
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+## 📝 Customization
 
----
+1. **Update Personal Information**
+   - Edit the content in HTML files
+   - Update images in the `assets` folder
+   - Modify colors and styles in `css/styles.css`
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+2. **Update Projects**
+   - Edit the projects in `projects.html`
+   - Add/remove project cards as needed
 
-Once your project is complete, choose a method to **host your site online**.
+3. **Update Contact Information**
+   - Update the contact form action in `contact.html`
+   - Update the map location in `contact.html`
 
-You can use:
+## 📱 Responsive Design
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
+The website is fully responsive and works on:
+- Desktop (1200px and above)
+- Laptops (992px - 1199px)
+- Tablets (768px - 991px)
+- Mobile devices (up to 767px)
 
-Deploy your project and confirm that:
+## 📄 License
 
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
+This project is open source and available under the [MIT License](LICENSE).
 
-**Goal:** Publish your work online and make it accessible to the world.
+## 🙏 Acknowledgments
 
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+- [Power Learn Project](https://powerlearnproject.org/) for the opportunity
+- [Font Awesome](https://fontawesome.com/) for icons
+- [Google Fonts](https://fonts.google.com/) for typography
